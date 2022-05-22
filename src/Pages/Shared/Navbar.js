@@ -6,9 +6,9 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     const manuItem = <>
         <li><NavLink to='/' >Home</NavLink> </li>
-        <li> <NavLink to='/products' >Products</NavLink> </li>
+        <li> <NavLink to='/totalproduct' >Products</NavLink> </li>
         <li> <NavLink to='/blogs' >Blogs</NavLink> </li>
-        <li> <NavLink to='/products' >Products</NavLink> </li>
+
     </>
 
     return (

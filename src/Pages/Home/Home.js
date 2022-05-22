@@ -1,17 +1,15 @@
 import React from 'react';
 import Footer from '../Shared/Footer';
 import Banner from './Banner';
-import Blogs from './Blogs';
 import Reviews from './Reviews';
 import BusinessSummary from './BusinessSummary';
-
-
+import Products from './Products';
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <Blogs></Blogs>
+            <Products></Products>
             <BusinessSummary></BusinessSummary>
             <Reviews></Reviews>
             <Footer></Footer>
