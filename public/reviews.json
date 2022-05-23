@@ -4,53 +4,41 @@
         "name": "Power Motor",
         "image": "https://i.ibb.co/v1Wwpx3/power.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "available": 50000,
-        "price": 2,
-        "minimumorder": 1000
+        "ratings": 5
     },
     {
         "_id": 2,
         "name": "Tiny Motor",
         "image": "https://i.ibb.co/LzKTLWb/dc-toy-motor-250x250.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-        "available": 50000,
-        "price": 0.5,
-        "minimumorder": 1000
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "ratings": 5
     },
     {
         "_id": 3,
         "name": "Brushless Motor",
         "image": "https://i.ibb.co/fXqvDQw/brushless.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-        "available": 50000,
-        "price": 2.5,
-        "minimumorder": 1000
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "ratings": 5
     },
     {
         "_id": 4,
         "name": "Gare Motor",
         "image": "https://i.ibb.co/pPKC9Kc/small-with-gare.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "available": 50000,
-        "price": 2,
-        "minimumorder": 1000
+        "ratings": 5
     },
     {
         "_id": 5,
         "name": "Heavy Duty Motor",
         "image": "https://i.ibb.co/BKq2wxJ/heavy-duty.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-        "available": 50000,
-        "price": 3,
-        "minimumorder": 1000
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "ratings": 5
     },
     {
         "_id": 6,
         "name": "Drone Motor",
         "image": "https://i.ibb.co/d59HZVD/dc-motor-250x250.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "available": 50000,
-        "price": 3,
-        "minimumorder": 1000
+        "ratings": 5
     }
 ]

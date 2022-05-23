@@ -4,6 +4,7 @@ import './App.css';
 import Blogs from './Pages/Home/Blogs';
 import Home from './Pages/Home/Home';
 import TotalProduct from './Pages/Home/TotalProduct';
+import TotalReviews from './Pages/Home/TotalReviews';
 import Navbar from './Pages/Shared/Navbar';
 
 
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/totalproduct' element={<TotalProduct></TotalProduct>}></Route>
+        <Route path='/totalreviews' element={<TotalReviews></TotalReviews>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
       </Routes>
 
