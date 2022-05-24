@@ -5,7 +5,7 @@ import banner3 from '../../Assets/bannerimg/bannerimg3.jpg'
 
 const Banner = () => {
     return (
-        <div className="carousel ">
+        <div className="carousel h-full ">
             <div className="carousel-item">
                 <img className='' src={banner1} alt="" />
             </div>
