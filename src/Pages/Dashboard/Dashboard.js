@@ -10,7 +10,7 @@ const Dashboard = () => {
                 <h2 className='text-3xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-center h-20 text-white py-3'>Welcome to Dashboard</h2>
                 <Outlet></Outlet>
             </div>
-            <div class="drawer-side">
+            <div class="drawer-side ">
                 <label for="dashboard-sidebar" class="drawer-overlay"></label>
                 <ul class="menu p-4 overflow-y-auto  bg-base-300 text-base-content">
                     <li className='my-1 '><NavLink to='/dashboard/myorders'>My Orders</NavLink></li>

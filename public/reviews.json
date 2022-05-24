@@ -1,43 +1,43 @@
 [
     {
         "_id": 1,
-        "name": "Power Motor",
-        "image": "https://i.ibb.co/v1Wwpx3/power.jpg",
+        "name": "Ruddra Rup",
+        "image": "https://i.ibb.co/80pL7d6/reviewimg1.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "ratings": 5
     },
     {
         "_id": 2,
-        "name": "Tiny Motor",
-        "image": "https://i.ibb.co/LzKTLWb/dc-toy-motor-250x250.jpg",
+        "name": "Mac Robin",
+        "image": "https://i.ibb.co/CpdFckf/reviewimg2.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "ratings": 5
     },
     {
         "_id": 3,
-        "name": "Brushless Motor",
-        "image": "https://i.ibb.co/fXqvDQw/brushless.jpg",
+        "name": "Rahul Kanti",
+        "image": "https://i.ibb.co/GvnPq03/reviewimg3.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "ratings": 5
     },
     {
         "_id": 4,
-        "name": "Gare Motor",
-        "image": "https://i.ibb.co/pPKC9Kc/small-with-gare.jpg",
+        "name": "Isac Newton",
+        "image": "https://i.ibb.co/3SBJWQ6/reviewimg4.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "ratings": 5
     },
     {
         "_id": 5,
-        "name": "Heavy Duty Motor",
-        "image": "https://i.ibb.co/BKq2wxJ/heavy-duty.jpg",
+        "name": "Sumon Dhali",
+        "image": "https://i.ibb.co/mh8MX42/reviewimg5.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "ratings": 5
     },
     {
         "_id": 6,
-        "name": "Drone Motor",
-        "image": "https://i.ibb.co/d59HZVD/dc-motor-250x250.jpg",
+        "name": "Nabo Kumar",
+        "image": "https://i.ibb.co/CpdFckf/reviewimg2.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "ratings": 5
     }

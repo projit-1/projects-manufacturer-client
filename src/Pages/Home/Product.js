@@ -7,7 +7,7 @@ const Product = ({ product }) => {
 
         <div class=" bg-base-100 shadow-xl grid rounded-xl">
             <figure className=''>
-                <img className='rounded-xl items-center w-96 h-52' src={image} alt="Shoes" />
+                <img className='rounded-xl items-center w-96 h-52' src={image} alt="product" />
             </figure>
             <div class="card-body ">
                 <h2 class="card-title">{name}</h2>

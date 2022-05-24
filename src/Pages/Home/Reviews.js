@@ -8,12 +8,11 @@ const Reviews = () => {
     const [reviews, setRevews] = useReview();
 
     return (
-        <div className='my-10'>
+        <div className='my-10 mx-auto'>
             <h2 className='text-primary text-3xl text-center'>Customer Reviews</h2>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-2'>
-
                 {
-                    reviews.slice(0, 4).map(review => <Review
+                    reviews.slice(0, 6).map(review => <Review
                         key={review._id}
                         review={review}
                     ></Review>)
