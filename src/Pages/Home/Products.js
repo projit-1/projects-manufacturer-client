@@ -8,12 +8,12 @@ const Products = () => {
     const [products, setProducts] = useProduct();
 
     return (
-        <div className='px-10 mx-auto'>
+        <div className='px-5 mx-auto'>
             <h2 className='text-primary text-3xl text-center'>Our Products</h2>
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-2'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
 
                 {
-                    products.slice(0, 4).map(product => <Product
+                    products.slice(0, 6).map(product => <Product
                         key={product._id}
                         product={product}
                     ></Product>)
