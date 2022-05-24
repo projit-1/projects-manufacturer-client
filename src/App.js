@@ -25,24 +25,29 @@ function App() {
     <div className="">
       <Navbar></Navbar>
       <Routes>
-        <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/totalproduct' element={<TotalProduct></TotalProduct>}></Route>
-        <Route path='/totalreviews' element={<TotalReviews></TotalReviews>}></Route>
-        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
-        <Route path='/dashboard' element={<Dashboard>
 
-          <Route index element={<MyOrders></MyOrders>}></Route>
-          <Route path='/addaproduct' element={<AddAProduct></AddAProduct>}></Route>
-          <Route path='/addreview' element={<AddReview></AddReview>}></Route>
-          <Route path='/manageproduct' element={<ManageProduct></ManageProduct>}></Route>
-          <Route path='/manageallorders' element={<ManageAllOrders></ManageAllOrders>}></Route>
-          <Route path='/myprofile' element={<MyProfile></MyProfile>}></Route>
-        </Dashboard>}>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='totalproduct' element={<TotalProduct />}></Route>
+        <Route path='totalreviews' element={<TotalReviews />}></Route>
+        <Route path='blogs' element={<Blogs />}></Route>
 
+        {/* nested route  */}
+        <Route path='dashboard' element={<Dashboard />}>
+          <Route path='myorders' element={<MyOrders></MyOrders>} />
+          <Route path='addaproduct' element={<AddAProduct />} />
+          <Route path='addreview' element={<AddReview />} />
+          <Route path='manageproduct' element={<ManageProduct />
+          } />
+          <Route path='manageallorders' element={<ManageAllOrders />} />
+          <Route path='myprofile' element={<MyProfile />} />
         </Route>
-        <Route path='/login' element={<Login></Login>}></Route>
-        <Route path='/Signup' element={<Signup></Signup>}></Route>
-        <Route path='/*' element={<NotFound></NotFound>}></Route>
+
+
+        {/* login route */}
+
+        <Route path='login' element={<Login />}></Route>
+        <Route path='Signup' element={<Signup />}></Route>
+        <Route path='*' element={<NotFound />}></Route>
       </Routes>
 
     </div>
