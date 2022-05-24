@@ -18,11 +18,10 @@ const Products = () => {
                         product={product}
                     ></Product>)
                 }
-                <Link to='/totalproduct'>
-                    <button class="btn btn-outline btn-primary  absolute inset-x-20 left-20  ">See More</button>
-                </Link>
-
             </div>
+            <Link className=' flex justify-end items-end my-5 mx-10' to='/totalproduct'>
+                <button className="btn btn-outline btn-primary btn-sm ">See More</button>
+            </Link>
         </div>
     );
 };
