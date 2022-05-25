@@ -1,0 +1,32 @@
+[
+    {
+        "_id": 1,
+        "name": "Power Motor",
+        "image": "https://i.ibb.co/v1Wwpx3/power.jpg"
+    },
+    {
+        "_id": 2,
+        "name": "Tiny Motor",
+        "image": "https://i.ibb.co/LzKTLWb/dc-toy-motor-250x250.jpg"
+    },
+    {
+        "_id": 3,
+        "name": "Brushless Motor",
+        "image": "https://i.ibb.co/fXqvDQw/brushless.jpg"
+    },
+    {
+        "_id": 4,
+        "name": "Gare Motor",
+        "image": "https://i.ibb.co/pPKC9Kc/small-with-gare.jpg"
+    },
+    {
+        "_id": 5,
+        "name": "Heavy Duty Motor",
+        "image": "https://i.ibb.co/BKq2wxJ/heavy-duty.jpg"
+    },
+    {
+        "_id": 6,
+        "name": "Drone Motor",
+        "image": "https://i.ibb.co/d59HZVD/dc-motor-250x250.jpg"
+    }
+]
