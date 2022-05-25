@@ -16,6 +16,7 @@ import AddReview from './Pages/Dashboard/AddReview';
 import AddAProduct from './Pages/Dashboard/AddAProduct';
 import ManageProduct from './Pages/Dashboard/ManageProduct';
 import Signup from './Pages/Login/Signup';
+import RequireAuth from './Pages/Login/RequireAuth';
 
 
 
@@ -27,12 +28,16 @@ function App() {
       <Routes>
 
         <Route path='/' element={<Home />}></Route>
-        <Route path='totalproduct' element={<TotalProduct />}></Route>
+        <Route path='totalproduct' element={<RequireAuth>
+          <TotalProduct />
+        </RequireAuth>}></Route>
         <Route path='totalreviews' element={<TotalReviews />}></Route>
         <Route path='blogs' element={<Blogs />}></Route>
 
         {/* nested route  */}
-        <Route path='dashboard' element={<Dashboard />}>
+        <Route path='dashboard' element={<RequireAuth>
+          <Dashboard />
+        </RequireAuth>}>
           <Route path='myorders' element={<MyOrders></MyOrders>} />
           <Route path='addaproduct' element={<AddAProduct />} />
           <Route path='addreview' element={<AddReview />} />

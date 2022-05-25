@@ -1,15 +1,23 @@
 import React from 'react';
 import logo from '../../Assets/logo/logo.ico'
 import { NavLink } from 'react-router-dom';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../firebase.init';
+import { signOut } from 'firebase/auth';
+
 
 
 const Navbar = () => {
-    const manuItem = <>
+    const [user, loading, error] = useAuthState(auth);
+    const logout = () => {
+        signOut(auth);
+    };
+    const manuItems = <>
         <li className='mx-1'><NavLink to='/' >Home</NavLink> </li>
         <li className='mx-1'> <NavLink to='/totalproduct' >Products</NavLink> </li>
         <li className='mx-1'> <NavLink to='/blogs' >Blogs</NavLink> </li>
         <li className='mx-1'> <NavLink to='/dashboard' >Dashboard</NavLink> </li>
-        <li className='mx-1'> <NavLink to='/login' >Log in</NavLink> </li>
+        <li className='mx-1'> {user ? <button class="btn btn-ghost" onClick={logout}>Sign Out</button> : <NavLink to='/login' >Log in</NavLink>}</li>
 
     </>
 
@@ -22,7 +30,7 @@ const Navbar = () => {
                     </label>
                     <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         {
-                            manuItem
+                            manuItems
                         }
                     </ul>
                 </div>
@@ -33,7 +41,7 @@ const Navbar = () => {
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
                     {
-                        manuItem
+                        manuItems
                     }
                 </ul>
             </div>
