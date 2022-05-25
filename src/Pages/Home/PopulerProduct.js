@@ -2,7 +2,7 @@ import React from 'react';
 import usePopulerProduct from '../../Hooks/usePopulerProduct';
 import Pproduct from './Pproduct';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
-import Populerproduct from '../../Assets/poulerproduct.png'
+import Populerproduct from '../../Assets/populerproduct.png'
 
 
 const PopulerProduct = () => {
@@ -19,8 +19,8 @@ const PopulerProduct = () => {
     const [pproduct, setPproduct] = usePopulerProduct();
     return (
         <div className='mx-2'>
-            <div className='bg bg-slate-400'>
-                <h2 className='text-3xl text-center text-primary  -mb-10'>Our Populer Products</h2>
+            <div className='bg bg-slate-100'>
+                <h2 className='text-3xl text-center text-cyan-500 -mb-10'>Our Populer Products</h2>
                 <img className='w-full h-[290px] object-cover ' src={Populerproduct} alt="" />
             </div>
             <div className='relative flex items-center my-2'>

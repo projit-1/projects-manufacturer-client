@@ -5,7 +5,9 @@ const Product = ({ product }) => {
 
     return (
 
-        <div class=" bg-base-100 shadow-xl grid rounded-xl">
+        <div data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500" class=" bg-base-100 shadow-xl grid rounded-xl">
             <figure className=''>
                 <img className='rounded-xl items-center w-96 h-52' src={image} alt="product" />
             </figure>

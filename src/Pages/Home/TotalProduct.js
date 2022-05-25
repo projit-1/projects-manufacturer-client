@@ -7,7 +7,7 @@ const TotalProduct = () => {
     return (
         <div className='mx-10'>
             <h2 className='text-primary text-3xl text-center' > Our Products</h2 >
-            <div className=' grid grid-cols-1 lg:grid-cols-2 gap-2 ' >
+            <div className=' grid grid-cols-1 lg:grid-cols-3 gap-2 ' >
 
                 {
                     products.map(product => <Product

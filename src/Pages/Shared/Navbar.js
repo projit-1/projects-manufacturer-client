@@ -26,7 +26,9 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-                <div><img src={logo} alt="" /> </div>
+                <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" ><img src={logo} alt="" /> </div>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
