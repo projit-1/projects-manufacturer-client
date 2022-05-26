@@ -1,9 +1,8 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
-const Product = ({ hproduct }) => {
-    const { name, image, description, price, } = hproduct;
 
+const Product = ({ product, setItem }) => {
+    const { name, image, description, price, available, minimumorder } = product;
     return (
 
         <div data-aos="fade-down"
@@ -15,12 +14,16 @@ const Product = ({ hproduct }) => {
             <div class="card-body ">
                 <h2 class="card-title">{name}</h2>
                 <p > {description}  </p>
+                <p >Available Quantity: {available} </p>
                 <p>Price : $ {price} </p>
+                <p>Minimun Order: {minimumorder}</p>
                 <div class="card-actions justify-center">
 
-                    <NavLink to='/products'>  <label
-                        class="btn btn-primary ">Buy Now</label></NavLink>
-
+                    <label
+                        for="product-modal"
+                        onClick={() => setItem(product)}
+                        className="btn btn-sm btn-secondary text-white uppercase bg-gradient-to-r from-secondary to-primary"
+                    >Buy Now</label>
                 </div>
             </div>
         </div>

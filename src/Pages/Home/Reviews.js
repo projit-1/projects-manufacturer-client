@@ -4,6 +4,7 @@ import Review from './Review';
 import { Link } from 'react-router-dom';
 
 
+
 const Reviews = () => {
     const [reviews, setRevews] = useReview();
 
@@ -21,6 +22,7 @@ const Reviews = () => {
             <Link className=' flex justify-end items-end my-5 mx-20' to='/totalreviews'>
                 <button className="btn btn-outline btn-primary btn-sm ">See More</button>
             </Link>
+
         </div>
     );
 };

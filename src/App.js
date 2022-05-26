@@ -17,6 +17,7 @@ import AddAProduct from './Pages/Dashboard/AddAProduct';
 import ManageProduct from './Pages/Dashboard/ManageProduct';
 import Signup from './Pages/Login/Signup';
 import RequireAuth from './Pages/Login/RequireAuth';
+import Products from './Pages/Products/Products';
 
 
 
@@ -28,9 +29,10 @@ function App() {
       <Routes>
 
         <Route path='/' element={<Home />}></Route>
-        <Route path='totalproduct' element={<RequireAuth>
-          <TotalProduct />
+        <Route path='/products' element={<RequireAuth>
+          <Products />
         </RequireAuth>}></Route>
+
         <Route path='totalreviews' element={<TotalReviews />}></Route>
         <Route path='blogs' element={<Blogs />}></Route>
 

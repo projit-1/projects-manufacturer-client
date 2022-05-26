@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Pproduct = ({ pproduct }) => {
     const { name, image } = pproduct
@@ -13,7 +14,7 @@ const Pproduct = ({ pproduct }) => {
                         <h2 className="card-title ">{name}</h2>
                     </div>
                     <div className='flex items-center justify-center'>
-                        <button class="btn btn-primary btn-sm ">Buy Now</button>
+                        <NavLink to='/products'><button class="btn btn-primary btn-sm ">Buy Now</button></NavLink>
                     </div>
                 </div>
             </div>
