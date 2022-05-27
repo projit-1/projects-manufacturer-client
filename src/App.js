@@ -42,7 +42,7 @@ function App() {
         <Route path='dashboard' element={<RequireAuth>
           <Dashboard />
         </RequireAuth>}>
-          <Route path='myorders' element={<MyOrders></MyOrders>} />
+          <Route index element={<MyOrders></MyOrders>} />
           <Route path='addaproduct' element={<AddAProduct />} />
           <Route path='addreview' element={<AddReview />} />
           <Route path='manageproduct' element={<ManageProduct />

@@ -16,8 +16,8 @@ const ProductModal = ({ item, setItem }) => {
         const order = {
             productId: _id,
             product: name,
-            buyer: user.displayName,
-            email: user.email,
+            name: user.displayName,
+            buyer: user.email,
             option,
             phone: event.target.phone.value
 

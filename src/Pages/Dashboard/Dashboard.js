@@ -13,7 +13,7 @@ const Dashboard = () => {
             <div className="drawer-side w-48">
                 <label for="dashboard-sidebar" className="drawer-overlay"></label>
                 <ul className="menu p-4 overflow-y-auto  bg-base-300 text-base-content">
-                    <li className='my-1 '><NavLink to='/dashboard/myorders'>My Orders</NavLink></li>
+                    <li className='my-1 '><NavLink to='/dashboard'>My Orders</NavLink></li>
                     <li className='my-1'><NavLink to='/dashboard/addreview'>Add  Review</NavLink></li>
                     <li className='my-1'><NavLink to='/dashboard/myprofile'>My Profile</NavLink></li>
                     <ul className="menu menu-horizontal p-0">

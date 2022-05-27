@@ -8,7 +8,7 @@ import { signOut } from 'firebase/auth';
 
 
 const Navbar = () => {
-    const [user, loading, error] = useAuthState(auth);
+    const [user] = useAuthState(auth);
     const logout = () => {
         signOut(auth);
     };
@@ -17,7 +17,7 @@ const Navbar = () => {
 
         <li className='mx-1'> <NavLink to='/products' >Products</NavLink> </li>
         <li className='mx-1'> <NavLink to='/blogs' >Blogs</NavLink> </li>
-        <li className='mx-1'> <NavLink to='/dashboard' >Dashboard</NavLink> </li>
+        {user && <li className='mx-1'> <NavLink to='/dashboard' >Dashboard</NavLink> </li>}
         <li className='mx-1'> {user ? <button className="btn btn-ghost" onClick={logout}>Sign Out</button> : <NavLink to='/login' >Log in</NavLink>}</li>
 
     </>
