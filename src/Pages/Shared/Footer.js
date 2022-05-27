@@ -6,7 +6,7 @@ import { FaFacebookF, FaTwitter, FaYoutube, FaPhone } from 'react-icons/fa'
 const Footer = () => {
     return (
         <div className='bg-base-200 mt-20'>
-            <footer class="footer p-10  text-base-content">
+            <footer className="footer p-10  text-base-content">
                 <div>
                     <div>
                         <img className='w-72' src={footerimg} alt="" />
@@ -14,16 +14,16 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <span class="footer-title">Learn more</span>
-                    <a class="link link-hover">About us</a>
-                    <a class="link link-hover">Contact</a>
-                    <a class="link link-hover">Jobs</a>
-                    <a class="link link-hover">Terms of use</a>
-                    <a class="link link-hover">Privacy policy</a>
+                    <span className="footer-title">Learn more</span>
+                    <a className="link link-hover">About us</a>
+                    <a className="link link-hover">Contact</a>
+                    <a className="link link-hover">Jobs</a>
+                    <a className="link link-hover">Terms of use</a>
+                    <a className="link link-hover">Privacy policy</a>
 
                 </div>
                 <div>
-                    <span class="footer-title">Join us</span>
+                    <span className="footer-title">Join us</span>
                     <a >
                         <FaFacebookF className='cursor-pointer rounded-full w-8 h-8 hover:bg-primary ease-in-out duration-300  py-1' />
                     </a>

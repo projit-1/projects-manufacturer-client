@@ -1,18 +1,43 @@
 import React from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../firebase.init';
 
-const ProductModal = ({ item }) => {
-    const { name, available } = item;
+const ProductModal = ({ item, setItem }) => {
+    const { name, available, price } = item;
+    const [user, loading, error] = useAuthState(auth);
+
+    const handleOrder = (event) => {
+        event.preventDefault();
+        const name = event.target.name.value;
+        const option = event.target.option.value;
+        console.log(name, option);
+
+        setItem(null);
+    }
     return (
         <div>
             <input type="checkbox" id="product-modal" className="modal-toggle" />
             <div className="modal modal-bottom sm:modal-middle">
                 <div className="modal-box">
                     <label for="product-modal" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
-                    <h3 className="font-bold text-lg text-secondary">Order for: {name}</h3>
-                    <p className="py-4">Available item are {available} </p>
-                    <div className="modal-action">
+                    <h3 className="font-bold text-lg text-secondary text-center">Your Order </h3>
+                    <form onSubmit={handleOrder} className='grid grid-cols-1 gap-1 justify-items-center '>
+                        <input type="text" disabled value={name} className="input input-bordered input-md w-full max-w-xs text-center" />
+                        {/* <input type="text" disabled value={(price)} className="input input-bordered input-md w-full max-w-xs text-center" /> */}
+                        <select name='option' className="select select-bordered w-full max-w-xs text-center">
+                            <option disabled select>Product Amout</option>
+                            <option>1000</option>
+                            <option>2000</option>
+                            <option>3000</option>
+                        </select>
+                        <input type="text" name='name' disabled value={user?.displayName || " "} className="input input-bordered input-md w-full max-w-xs text-center" />
+                        <input type="email" name='email' disabled value={user?.email || " "} className="input input-bordered input-md w-full max-w-xs text-center" />
+                        <input type="text" name='phone' placeholder="Phone number" className="input input-bordered input-md w-full max-w-xs" />
+                        <input type="submit" value="submit" className=" btn btn-secondary  w-full max-w-xs" />
+                    </form>
+                    {/* <div className="modal-action">
                         <label for="product-modal" className="btn">Order Now</label>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

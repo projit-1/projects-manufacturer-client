@@ -10,11 +10,11 @@ const Pproduct = ({ pproduct }) => {
                     <figure className=''>
                         <img className='rounded-xl items-center p-1 mx-auto w-[250px] h-52' src={image} alt="product" />
                     </figure>
-                    <div class="card-body w-64 items-center">
+                    <div className="card-body w-64 items-center">
                         <h2 className="card-title ">{name}</h2>
                     </div>
                     <div className='flex items-center justify-center'>
-                        <NavLink to='/products'><button class="btn btn-primary btn-sm ">Buy Now</button></NavLink>
+                        <NavLink to='/products'><button className="btn btn-primary btn-sm ">Buy Now</button></NavLink>
                     </div>
                 </div>
             </div>

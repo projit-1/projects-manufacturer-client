@@ -7,7 +7,7 @@ const AvaliableProduct = () => {
     const [item, setItem] = useState(null);
 
     useEffect(() => {
-        fetch('products.json')
+        fetch('http://localhost:5000/product')
             .then(res => res.json())
             .then(data => setProducts(data));
     }, [])
