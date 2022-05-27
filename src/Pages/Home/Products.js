@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import useProduct from '../../Hooks/useProduct';
-import OrderModal from './OrderModal';
 import Product from './Product';
 
 

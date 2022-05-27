@@ -18,6 +18,8 @@ import ManageProduct from './Pages/Dashboard/ManageProduct';
 import Signup from './Pages/Login/Signup';
 import RequireAuth from './Pages/Login/RequireAuth';
 import Products from './Pages/Products/Products';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -56,7 +58,7 @@ function App() {
         <Route path='Signup' element={<Signup />}></Route>
         <Route path='*' element={<NotFound />}></Route>
       </Routes>
-
+      <ToastContainer />
     </div>
   );
 }
