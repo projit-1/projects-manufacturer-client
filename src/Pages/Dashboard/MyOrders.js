@@ -8,7 +8,7 @@ const MyOrders = () => {
     const [orders, setOrders] = useState([]);
     useEffect(() => {
         if (user) {
-            fetch(`http://localhost:5000/order?buyer=${user.email}`)
+            fetch(`https://dry-brushlands-79455.herokuapp.com/order?buyer=${user.email}`)
                 .then(res => res.json())
                 .then(data => setOrders(data));
         }
