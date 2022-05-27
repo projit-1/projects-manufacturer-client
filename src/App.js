@@ -20,6 +20,7 @@ import RequireAuth from './Pages/Login/RequireAuth';
 import Products from './Pages/Products/Products';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import MyPortfolio from './Pages/Home/MyPortfolio';
 
 
 
@@ -37,12 +38,13 @@ function App() {
 
         <Route path='totalreviews' element={<TotalReviews />}></Route>
         <Route path='blogs' element={<Blogs />}></Route>
+        <Route path='myportfolio' element={<MyPortfolio />}></Route>
 
         {/* nested route  */}
         <Route path='dashboard' element={<RequireAuth>
           <Dashboard />
         </RequireAuth>}>
-          <Route index element={<MyOrders></MyOrders>} />
+          <Route path='myorders' element={<MyOrders></MyOrders>} />
           <Route path='addaproduct' element={<AddAProduct />} />
           <Route path='addreview' element={<AddReview />} />
           <Route path='manageproduct' element={<ManageProduct />

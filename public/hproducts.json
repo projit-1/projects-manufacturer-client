@@ -3,54 +3,54 @@
         "_id": 1,
         "name": "Power Motor",
         "image": "https://i.ibb.co/v1Wwpx3/power.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "available": 50000,
-        "price": 2,
-        "minimumorder": 1000
+        "description": "The Power Motor has been the reliable electric motor solutions.",
+        "available": "50000",
+        "price": "2",
+        "minimumorder": "1000"
     },
     {
         "_id": 2,
         "name": "Tiny Motor",
         "image": "https://i.ibb.co/LzKTLWb/dc-toy-motor-250x250.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-        "available": 50000,
-        "price": 0.5,
-        "minimumorder": 1000
+        "description": "An electric motor is an electrical machine that converts electrical energy ",
+        "available": "50000",
+        "price": "0.5",
+        "minimumorder": "1000"
     },
     {
         "_id": 3,
         "name": "Brushless Motor",
         "image": "https://i.ibb.co/fXqvDQw/brushless.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-        "available": 50000,
-        "price": 2.5,
-        "minimumorder": 1000
+        "description": "Most electric motors operate through the interaction ... ",
+        "available": "50000",
+        "price": "2.5",
+        "minimumorder": "1000"
     },
     {
         "_id": 4,
         "name": "Gare Motor",
         "image": "https://i.ibb.co/pPKC9Kc/small-with-gare.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "available": 50000,
-        "price": 2,
-        "minimumorder": 1000
+        "description": "Electric motor, any of a class of devices that convert electrical energy... ",
+        "available": "50000",
+        "price": "2",
+        "minimumorder": "1000"
     },
     {
         "_id": 5,
-        "name": "Heavy Duty Motor",
-        "image": "https://i.ibb.co/BKq2wxJ/heavy-duty.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-        "available": 50000,
-        "price": 3,
-        "minimumorder": 1000
+        "name": "Drone Motor",
+        "image": "https://i.ibb.co/d59HZVD/dc-motor-250x250.jpg",
+        "description": "Work is the result of a force acting over some distance....",
+        "available": "50000",
+        "price": "3",
+        "minimumorder": "1000"
     },
     {
         "_id": 6,
-        "name": "Drone Motor",
-        "image": "https://i.ibb.co/d59HZVD/dc-motor-250x250.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "available": 50000,
-        "price": 3,
-        "minimumorder": 1000
+        "name": "Vibration Motor",
+        "image": "https://i.ibb.co/NNChjMT/vibration-motor.jpg",
+        "description": "It convert electrical energy to mechanical energy, usually by....",
+        "available": "50000",
+        "price": "2",
+        "minimumorder": "1000"
     }
 ]

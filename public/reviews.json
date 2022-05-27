@@ -3,42 +3,42 @@
         "_id": 1,
         "name": "Ruddra Rup",
         "image": "https://i.ibb.co/80pL7d6/reviewimg1.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "description": "Industrial motor uses a major fraction of total industrial energy uses.",
         "ratings": 5
     },
     {
         "_id": 2,
         "name": "Mac Robin",
         "image": "https://i.ibb.co/CpdFckf/reviewimg2.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "description": "In this review, computer tools that can be used to analyze electric motors energy used has been discussed. ",
         "ratings": 5
     },
     {
         "_id": 3,
         "name": "Rahul Kanti",
         "image": "https://i.ibb.co/GvnPq03/reviewimg3.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "description": "Different types of losses that occur in a motor have been identified and ways....",
         "ratings": 5
     },
     {
         "_id": 4,
         "name": "Isac Newton",
         "image": "https://i.ibb.co/3SBJWQ6/reviewimg4.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "description": "Motor energy use have been reviewed and presented is soo good...",
         "ratings": 5
     },
     {
         "_id": 5,
         "name": "Sumon Dhali",
         "image": "https://i.ibb.co/mh8MX42/reviewimg5.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "description": "According to our research, we think A. O. Smith Electric Motor is the best overall.",
         "ratings": 5
     },
     {
         "_id": 6,
         "name": "Nabo Kumar",
         "image": "https://i.ibb.co/CpdFckf/reviewimg2.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "description": "We put together a list of the 20 Best Electric Motors to help you find the one you want.",
         "ratings": 5
     }
 ]

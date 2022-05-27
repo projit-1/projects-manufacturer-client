@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Product = ({ hproduct }) => {
-    const { name, image, description, price, } = hproduct;
+    const { name, image, description, price, available, minimumorder } = hproduct;
 
     return (
 
@@ -15,7 +15,10 @@ const Product = ({ hproduct }) => {
             <div className="card-body ">
                 <h2 className="card-title">{name}</h2>
                 <p > {description}  </p>
-                <p>Price : $ {price} </p>
+                <p>Available Quantity: {available} </p>
+                <p>Price per unit : $ {price} </p>
+                <p>Minimum order: {minimumorder} </p>
+
                 <div className="card-actions justify-center">
 
                     <NavLink to='/products'>  <label

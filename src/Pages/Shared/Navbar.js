@@ -17,6 +17,8 @@ const Navbar = () => {
 
         <li className='mx-1'> <NavLink to='/products' >Products</NavLink> </li>
         <li className='mx-1'> <NavLink to='/blogs' >Blogs</NavLink> </li>
+        <li className='mx-1'> <NavLink to='/myportfolio' >My Portfolio</NavLink> </li>
+
         {user && <li className='mx-1'> <NavLink to='/dashboard' >Dashboard</NavLink> </li>}
         <li className='mx-1'> {user ? <button className="btn btn-ghost" onClick={logout}>Sign Out</button> : <NavLink to='/login' >Log in</NavLink>}</li>
 

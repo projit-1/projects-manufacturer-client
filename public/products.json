@@ -2,7 +2,7 @@
         {
                 "name": "Power Motor",
                 "image": "https://i.ibb.co/v1Wwpx3/power.jpg",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "description": "The Power Motor has been the reliable electric motor solutions.",
                 "available": "50000",
                 "price": "2",
                 "minimumorder": "1000"
@@ -10,7 +10,7 @@
         {
                 "name": "Tiny Motor",
                 "image": "https://i.ibb.co/LzKTLWb/dc-toy-motor-250x250.jpg",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+                "description": "An electric motor is an electrical machine that converts electrical energy ",
                 "available": "50000",
                 "price": "0.5",
                 "minimumorder": "1000"
@@ -18,7 +18,7 @@
         {
                 "name": "Brushless Motor",
                 "image": "https://i.ibb.co/fXqvDQw/brushless.jpg",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+                "description": "Most electric motors operate through the interaction ... ",
                 "available": "50000",
                 "price": "2.5",
                 "minimumorder": "1000"
@@ -26,7 +26,7 @@
         {
                 "name": "Gare Motor",
                 "image": "https://i.ibb.co/pPKC9Kc/small-with-gare.jpg",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "description": "Electric motor, any of a class of devices that convert electrical energy... ",
                 "available": "50000",
                 "price": "2",
                 "minimumorder": "1000"
@@ -34,7 +34,7 @@
         {
                 "name": "Heavy Duty Motor",
                 "image": "https://i.ibb.co/BKq2wxJ/heavy-duty.jpg",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+                "description": "Work is the result of a force acting over some distance. Work is quantified.. ",
                 "available": "50000",
                 "price": "3",
                 "minimumorder": "1000"
@@ -42,9 +42,129 @@
         {
                 "name": "Drone Motor",
                 "image": "https://i.ibb.co/d59HZVD/dc-motor-250x250.jpg",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "description": "Work is the result of a force acting over some distance....",
                 "available": "50000",
                 "price": "3",
+                "minimumorder": "1000"
+        },
+        {
+                "name": "Vibration Motor",
+                "image": "https://i.ibb.co/NNChjMT/vibration-motor.jpg",
+                "description": "It convert electrical energy to mechanical energy, usually by....",
+                "available": "50000",
+                "price": "2",
+                "minimumorder": "1000"
+        },
+        {
+                "name": "Toy Motor",
+                "image": "https://i.ibb.co/KhPRbS5/toy-motor.jpg",
+                "description": "Toy Motor is committed to making our customers successful by....",
+                "available": "50000",
+                "price": "1",
+                "minimumorder": "1000"
+        },
+        {
+                "name": "Tiny Motor",
+                "image": "https://i.ibb.co/tqC5Xpm/tiny.jpg",
+                "description": "Performance leadership and assurance of supply, Power Motor is the reliable choice.",
+                "available": "50000",
+                "price": "0.5",
+                "minimumorder": "1000"
+        },
+        {
+                "name": "Power Motor",
+                "image": "https://i.ibb.co/HBnjnmD/tiny-power.jpg",
+                "description": "Our mature motor technology, application expertise and perfect Power Motor",
+                "available": "50000",
+                "price": "3",
+                "minimumorder": "1000"
+        },
+        {
+                "name": "Small-Gare Motor",
+                "image": "https://i.ibb.co/pPKC9Kc/small-with-gare.jpg",
+                "description": "Our mature motor technology, application expertise and perfect Power Motor",
+                "available": "50000",
+                "price": "4",
+                "minimumorder": "1000"
+        },
+        {
+                "name": "Soundless Motor",
+                "image": "https://i.ibb.co/QK8kXjk/small-soundless.jpg",
+                "description": "Power Motor the ideal partner for customing product development projects.",
+                "available": "50000",
+                "price": "3",
+                "minimumorder": "1000"
+        },
+        {
+                "name": "Power Motor",
+                "image": "https://i.ibb.co/v1Wwpx3/power.jpg",
+                "description": "Power Motor the ideal partner for customing product development projects.",
+                "available": "50000",
+                "price": "3",
+                "minimumorder": "1000"
+        },
+        {
+                "name": "PMDC Motor",
+                "image": "https://i.ibb.co/sR4tYYG/pmdc-motor.jpg",
+                "description": "Power Motor the ideal partner for customing product development projects.",
+                "available": "50000",
+                "price": "2",
+                "minimumorder": "1000"
+        },
+        {
+                "name": "Mini Motor",
+                "image": "https://i.ibb.co/1bp99WB/mini.jpg",
+                "description": " Mini motor has been a reliable motion solution manufacturer since 2001.",
+                "available": "50000",
+                "price": "1",
+                "minimumorder": "1000"
+        },
+        {
+                "name": "Drone Motor",
+                "image": "https://i.ibb.co/d59HZVD/dc-motor-250x250.jpg",
+                "description": "Drone motor has been a reliable motion solution manufacturer since 2001.",
+                "available": "50000",
+                "price": "3",
+                "minimumorder": "1000"
+        },
+        {
+                "name": "AI Motor",
+                "image": "https://i.ibb.co/kyVWX7Z/drone-motor.jpg",
+                "description": "AI has been a reliable motion solution manufacturer since 2001.",
+                "available": "50000",
+                "price": "3",
+                "minimumorder": "1000"
+        },
+        {
+                "name": "Heavy Duty Motor",
+                "image": "https://i.ibb.co/N2wFyxH/heavy-duty-drone-motor.jpg",
+                "description": "For designers who demand performance leadership and assurance of supply...",
+                "available": "50000",
+                "price": "2",
+                "minimumorder": "1000"
+        },
+        {
+                "name": "Drone Motor",
+                "image": "https://i.ibb.co/d59HZVD/dc-motor-250x250.jpg",
+                "description": "Our mature motor technology, application expertise and perfect ... ",
+                "available": "50000",
+                "price": "3",
+                "minimumorder": "1000"
+        },
+        {
+                "name": "Brushless Motor",
+                "image": "https://i.ibb.co/fXqvDQw/brushless.jpg",
+                "description": "Our mature motor technology, application expertise and perfect...",
+                "available": "50000",
+                "price": "2.5",
+                "minimumorder": "1000"
+        },
+        {
+                "name": "DC Motor",
+                "image": "https://i.ibb.co/d59HZVD/dc-motor-250x250.jpg",
+                "description": "Our mature motor technology, application expertise and perfect customized.",
+                "available": "50000",
+                "price": "2",
                 "minimumorder": "1000"
         }
 ]
