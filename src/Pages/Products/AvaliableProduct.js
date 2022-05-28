@@ -7,7 +7,7 @@ const AvaliableProduct = () => {
     const [item, setItem] = useState(null);
 
     useEffect(() => {
-        fetch('https://dry-brushlands-79455.herokuapp.com/product')
+        fetch('http://localhost:5000/product')
             .then(res => res.json())
             .then(data => setProducts(data));
     }, [])

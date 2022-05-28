@@ -4,6 +4,7 @@ import { useCreateUserWithEmailAndPassword, useSignInWithGoogle, useUpdateProfil
 import auth from '../../firebase.init';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Loading from '../Shared/Loading';
+import useToken from '../../Hooks/useToken';
 
 const Signup = () => {
     const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
@@ -15,6 +16,11 @@ const Signup = () => {
         error,
     ] = useCreateUserWithEmailAndPassword(auth);
     const [updateProfile, updating, updateError] = useUpdateProfile(auth);
+
+    const [token] = useToken(user || gUser);
+
+
+
     const navigate = useNavigate();
     let signInError;
     const location = useLocation();
@@ -28,15 +34,16 @@ const Signup = () => {
         return <Loading></Loading>
     }
 
-    if (user || gUser) {
-        navigate(from, { replace: true });
+    if (token) {
+        // navigate(from, { replace: true });
+        navigate('/products');
     }
 
     const onSubmit = async data => {
         await createUserWithEmailAndPassword(data.email, data.password);
         await updateProfile({ displayName: data.name });
         console.log('updated')
-        navigate('/products');
+
     }
     return (
         <div className='flex justify-center items-center h-screen '>

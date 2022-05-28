@@ -23,7 +23,7 @@ const ProductModal = ({ item, setItem }) => {
 
         }
 
-        fetch('https://dry-brushlands-79455.herokuapp.com/order', {
+        fetch('http://localhost:5000/order', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
