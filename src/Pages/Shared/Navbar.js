@@ -11,6 +11,7 @@ const Navbar = () => {
     const [user] = useAuthState(auth);
     const logout = () => {
         signOut(auth);
+        localStorage.removeItem('accessToken');
     };
     const manuItems = <>
         <li className='mx-1'><NavLink to='/' >Home</NavLink> </li>

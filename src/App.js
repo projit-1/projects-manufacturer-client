@@ -21,6 +21,7 @@ import Products from './Pages/Products/Products';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import MyPortfolio from './Pages/Home/MyPortfolio';
+import Users from './Pages/Dashboard/Users';
 
 
 
@@ -50,6 +51,7 @@ function App() {
           <Route path='manageproduct' element={<ManageProduct />
           } />
           <Route path='manageallorders' element={<ManageAllOrders />} />
+          <Route path='users' element={<Users />} />
           <Route path='myprofile' element={<MyProfile />} />
         </Route>
 
