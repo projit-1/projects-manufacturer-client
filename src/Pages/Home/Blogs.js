@@ -3,7 +3,7 @@ import questionimg from '../../Assets/questionimg.png'
 
 const Blogs = () => {
     return (
-        <div>
+        <div className='my-5'>
             <div className='mx-10'>
                 <h2 className='text-2xl'> 1. How will I improve the performance of a React Application?</h2> <br />
                 <p className='text-justify'>Optimizing operation performance is crucial for inventors aware of keeping a stoner’s experience positive to keep them on an app and engaged. According to exploration by Akamai, alternate detention in cargo time can beget a 7 percent reduction in transformations, making it imperative for inventors to produce apps with optimized performance. In React operations, we're guaranteed a veritably fast UI by dereliction. Still, as an operation grows, inventors may encounter some performance issues. In this companion, we will bandy five important ways to optimize the performance of a React operation, including-optimization ways. These include</p>
@@ -62,6 +62,24 @@ const Blogs = () => {
                     <p className='text-accent mx-20'> Image is collected from internet.</p>
                 </p>
             </div> <br />
+            <div className='mx-10'>
+                <h2 className='text-2xl'> 4. Why should we not set the state directly in React? </h2> <br />
+                <br />
+
+                <p className='text-justify'>Set the state is one of the important facts for react learner, because we it doesn’t work as general thinking. Here we can give an example like, we set:
+                </p> <br />
+                const [users, setUsers] = useState([]).
+                <br /><p>
+                    But we never set the users instead of setUsers or we should never set the state directly because of the following reasons:</p>
+                <br /><p>
+                    a. If we update it directly, calling the setState() afterward may just replace the update we made. </p>
+                <br /><p>
+                    b. When we directly set or update the state, it does not change this state immediately. Instead, it creates a pending state transition, and accessing it after calling this method will only return the present value.  </p>
+                <br /><p>
+                    c. We will lose control of the state across all components.
+                </p>
+                <br />
+            </div>
             <div className='mx-10'>
                 <h2 className='text-2xl'> 6. What is a unit test? Why should write unit tests? </h2> <br />
                 <h2 className='text-xl'>  What is Unit Testing? </h2> <br />
