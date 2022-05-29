@@ -24,15 +24,14 @@ const Login = () => {
 
     const from = location.state?.from?.pathname || "/";
 
+
+
     useEffect(() => {
-        if (token) {
+        if (user || gUser) {
             navigate(from, { place: true });
         }
 
     }, [token, from, navigate])
-
-
-
 
 
     if (error || gError) {

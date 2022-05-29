@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Blogs from './Pages/Home/Blogs';
 import Home from './Pages/Home/Home';
-import TotalProduct from './Pages/Home/TotalProduct';
+
 import TotalReviews from './Pages/Home/TotalReviews';
 import Navbar from './Pages/Shared/Navbar';
 import Dashboard from '../src/Pages/Dashboard/Dashboard'
@@ -22,6 +22,8 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import MyPortfolio from './Pages/Home/MyPortfolio';
 import Users from './Pages/Dashboard/Users';
+import ContactUs from './Pages/Shared/ContactUs';
+import About from './Pages/Shared/About';
 
 
 
@@ -60,6 +62,8 @@ function App() {
 
         <Route path='login' element={<Login />}></Route>
         <Route path='Signup' element={<Signup />}></Route>
+        <Route path='contactus' element={<ContactUs />}></Route>
+        <Route path='aboutus' element={<About />}></Route>
         <Route path='*' element={<NotFound />}></Route>
       </Routes>
       <ToastContainer />

@@ -2,7 +2,9 @@ import React from 'react';
 import Clients from '../../Assets/client.png'
 import Access from '../../Assets/access.png'
 import Deliveri from '../../Assets/deliveri.png'
-import bsummaryimg from '../../Assets/bsummary .png'
+import { NavLink } from 'react-router-dom';
+
+
 
 
 const BusinessSummary = () => {
@@ -45,12 +47,21 @@ const BusinessSummary = () => {
                     </div>
                 </div>
             </div>
-            <div class="card card-side bg-base-100 shadow-xl">
-                <div class="card-body">
-                    <h2 class="card-title">New movie is released!</h2>
-                    <p>Click the button to watch on Jetflix app.</p>
-                    <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Watch</button>
+            <div className=''>
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <div class="card-body grid grid-cols-2 ">
+                        <div>
+                            <h2 class="text-2xl text-primary">Have any question about us or get a product request?</h2>
+                            <p>Never hesitate to contact us !</p>
+                        </div>
+                        <div className='grid grid-cols-2'>
+                            <div class="card-actions justify-end">
+                                <NavLink to='/products'> <button class="btn btn-sm btn-primary">Request for Quote</button></NavLink>
+                            </div>
+                            <div class="card-actions justify-end">
+                                <NavLink to='/contactus'><button class="btn btn-sm btn-primary">Contact us</button></NavLink>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

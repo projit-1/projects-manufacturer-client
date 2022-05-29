@@ -17,16 +17,16 @@ const MyPortfolio = () => {
                     </div>
                 </div>
             </div>
-            <div className="">
-                <p className=' text-center text-2xl '> My Best Previous work link</p>
+            <div className="mx-24">
+                <p className='  text-2xl  '> My Best Previous work link</p>
 
-                <p className=' text-center cursor-pointer my-1 '>
+                <p className='  cursor-pointer my-1 '>
                     https://assignment-03-rupsha-convention-center.netlify.app/
                 </p>
-                <p className=' text-center cursor-pointer my-1 '>
+                <p className='  cursor-pointer my-1 '>
                     https://assignment-09-khulna-car-hat-product-review.netlify.app/
                 </p>
-                <p className=' text-center  '>
+                <p className='  cursor-pointer my-1 '>
                     https://ns-motors-bangladesh-ltd.web.app/
                 </p>
             </div>

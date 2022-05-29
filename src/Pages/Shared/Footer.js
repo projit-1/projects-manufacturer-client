@@ -1,6 +1,7 @@
 import React from 'react';
 import footerimg from '../../Assets/footerimg.jpg'
 import { FaFacebookF, FaTwitter, FaYoutube, FaPhone } from 'react-icons/fa'
+import { NavLink } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -15,27 +16,26 @@ const Footer = () => {
 
                 <div>
                     <span className="footer-title">Learn more</span>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Terms of use</a>
-                    <a className="link link-hover">Privacy policy</a>
+                    <NavLink to='/aboutus'> About us</NavLink>
+                    <NavLink to='/contactus'> Contact</NavLink>
+                    <NavLink to='/'> Jobs</NavLink>
+                    <NavLink to='/'>Privacy Policy </NavLink>
 
                 </div>
                 <div>
                     <span className="footer-title">Join us</span>
-                    <a >
+                    <>
                         <FaFacebookF className='cursor-pointer rounded-full w-8 h-8 hover:bg-primary ease-in-out duration-300  py-1' />
-                    </a>
-                    <a>
+                    </>
+                    <>
                         <FaTwitter className='cursor-pointer rounded-full w-8 h-8 hover:bg-primary ease-in-out duration-300  py-1' />
-                    </a>
-                    <a>
+                    </>
+                    <>
                         <FaYoutube className='cursor-pointer  rounded-full w-8 h-8 hover:bg-primary ease-in-out duration-300  py-1' />
-                    </a>
-                    <a>
+                    </>
+                    <>
                         <FaPhone className='cursor-pointer  rounded-full w-8 h-8 hover:bg-primary ease-in-out duration-300  py-1' />
-                    </a>
+                    </>
                 </div>
             </footer>
             <p className='text-2xl text-primary text-center py-5'>NS Motor Bangladesh Ltd.</p>
