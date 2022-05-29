@@ -10,7 +10,7 @@ const MyOrders = () => {
     const navigate = useNavigate()
     useEffect(() => {
         if (user) {
-            fetch(`http://localhost:5000/order?buyer=${user.email}`, {
+            fetch(`https://dry-brushlands-79455.herokuapp.com/order?buyer=${user.email}`, {
                 method: 'GET',
                 headers: {
                     'authorization': `Bearer ${localStorage.getItem('accessToken')}`
